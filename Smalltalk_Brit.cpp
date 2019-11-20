@@ -6,8 +6,9 @@
  */
 #include "./includes/Smalltalk_Brit.h"
 #include "./includes/constants.h"
+	//create with appropriate phrases
 	Smalltalk_Brit::Smalltalk_Brit(int iPerson):Smalltalk(BRIT,iPerson){
-
+		populatePhrases();
 	}
 	Smalltalk_Brit::~Smalltalk_Brit(void){
 

@@ -8,7 +8,7 @@
 #include "./includes/constants.h"
 	//create with appropriate phrases
 	ST_American_DonutEnthusiest::ST_American_DonutEnthusiest(int i):Smalltalk_American(AMERICAN_DE,i){
-
+		populatePhrases();
 	}
 	ST_American_DonutEnthusiest::~ST_American_DonutEnthusiest(void){
 
