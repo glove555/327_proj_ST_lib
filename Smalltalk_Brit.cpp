@@ -11,10 +11,14 @@
 		populatePhrases();
 	}
 	Smalltalk_Brit::~Smalltalk_Brit(void){
-
+		//returns void, nothing to include here... maybe delet vectors?
 	}
 	void Smalltalk_Brit::populatePhrases(){
-
+		mySmallTalk.push_back(BRIT_1);
+		mySmallTalk.push_back(BRIT_2);
+		mySmallTalk.push_back(BRIT_3);
+		mySmallTalk.push_back(BRIT_4);
+		mySmallTalk.push_back(BRIT_5);
 	}
 
 

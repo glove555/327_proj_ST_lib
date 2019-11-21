@@ -16,8 +16,12 @@
 
 
 	Smalltalk_American::~Smalltalk_American(void){
-
+		//return void; nothing to include
 	}
 	void Smalltalk_American::populatePhrases(){
-
+		mySmallTalk.push_back(AMERICAN_DE_PHRASE_1);
+		mySmallTalk.push_back(AMERICAN_DE_PHRASE_2);
+		mySmallTalk.push_back(AMERICAN_DE_PHRASE_3);
+		mySmallTalk.push_back(AMERICAN_DE_PHRASE_4);
+		mySmallTalk.push_back(AMERICAN_DE_PHRASE_5);
 	}

@@ -45,8 +45,7 @@ std::vector<std::unique_ptr<Smalltalk>> getPeople(int numBrit,
 			numWatches = int(myvector.size());
 		}
 		for (int i = 0; i < numWatches; i++){
-//			std::unique_ptr<Watch> ptr = giveWatch();
-//			myvector[i]->giveWatch(pWatch);
+//			myvector[i]->giveWatch(new Watch());
 		}
 		//return your vector
 	return myvector;
