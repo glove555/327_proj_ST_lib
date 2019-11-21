@@ -11,17 +11,18 @@
 		populatePhrases();
 	}
 	Smalltalk_American::Smalltalk_American(std::string myNationality,int iPerson):Smalltalk(myNationality,iPerson){
-
+		mySmallTalk.clear();
 	}
 
 
 	Smalltalk_American::~Smalltalk_American(void){
-		//return void; nothing to include
+		//return void; nothing to include except maybe clearing vectors?
+		mySmallTalk.clear();
 	}
 	void Smalltalk_American::populatePhrases(){
-		mySmallTalk.push_back(AMERICAN_DE_PHRASE_1);
-		mySmallTalk.push_back(AMERICAN_DE_PHRASE_2);
-		mySmallTalk.push_back(AMERICAN_DE_PHRASE_3);
-		mySmallTalk.push_back(AMERICAN_DE_PHRASE_4);
-		mySmallTalk.push_back(AMERICAN_DE_PHRASE_5);
+		mySmallTalk.push_back(AMERICAN_PHRASE_1);
+		mySmallTalk.push_back(AMERICAN_PHRASE_2);
+		mySmallTalk.push_back(AMERICAN_PHRASE_3);
+		mySmallTalk.push_back(AMERICAN_PHRASE_4);
+		mySmallTalk.push_back(AMERICAN_PHRASE_5);
 	}
